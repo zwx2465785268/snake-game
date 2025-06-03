@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+canvas {
+    background-color: #ecf0f1;
+    border: 2px solid #2c3e50;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.score-container {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#pauseBtn {
+    background-color: #f39c12;
+}
+
+#pauseBtn:hover {
+    background-color: #e67e22;
+}
+
+#restartBtn {
+    background-color: #e74c3c;
+}
+
+#restartBtn:hover {
+    background-color: #c0392b;
+}
+
+.instructions {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 4px solid #3498db;
+}
+
+.instructions h2 {
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.instructions p {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 600px) {
+    .controls {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .game-container {
+        margin: 0 -10px;
+    }
+    
+    canvas {
+        width: 100%;
+        height: auto;
+    }
+}
