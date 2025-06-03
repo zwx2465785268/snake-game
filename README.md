@@ -16,6 +16,15 @@
 
 访问GitHub Pages: [https://zwx2465785268.github.io/snake-game](https://zwx2465785268.github.io/snake-game)
 
+**注意：** 如果你看到"Site not found"错误，请按照以下步骤启用GitHub Pages：
+
+1. 进入仓库设置（Settings）
+2. 在左侧菜单中点击"Pages"
+3. 在"Source"部分，选择"Deploy from a branch"
+4. 在"Branch"下拉菜单中选择"main"，文件夹选择"/docs"
+5. 点击"Save"按钮
+6. 等待几分钟后，你的游戏将在上述链接可用
+
 ### 本地运行
 
 1. 克隆仓库
